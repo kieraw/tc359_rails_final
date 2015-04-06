@@ -33,6 +33,10 @@ gem 'passenger'
 
 gem 'autoprefixer-rails'
 
+gem 'rack-mini-profiler'
+
+gem 'lol_dba'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

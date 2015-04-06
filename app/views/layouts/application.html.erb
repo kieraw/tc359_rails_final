@@ -15,10 +15,10 @@
     <% end %>
 
     <% if user_signed_in? %>
-      <li>Signed in as <%= current_user.email %></li>
+      <li class="signedin">Signed in as <%= current_user.email %></li>
       <li class="signout"><%= link_to "Sign Out", sign_out_path, method: :delete %></li>
     <% else %>
-      <li><%= link_to "Sign In", sign_in_path %></li>
+      <li class="signin"><%= link_to "Sign In", sign_in_path %></li>
     <% end %>
 
     <p class="datetime">Current date and time: <%= current_date_and_time %></p>

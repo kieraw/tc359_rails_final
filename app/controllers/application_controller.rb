@@ -3,6 +3,12 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
+  def authorize
+    if current_user.is_admin?
+      Rack::MiniProfiler.authorize_request
+    end
+  end
+
 private
 
   def current_user
@@ -20,5 +26,4 @@ private
       redirect_to sign_in_url, notice: 'You must sign in to access this part of the app.'
     end
   end
-
 end

@@ -6,8 +6,12 @@ li {
   font-size: 16px;
 }
 
-li.signout {
+li.signout, li.signin {
   padding-bottom: 20px;
+}
+
+li.signedin, li.signin {
+	padding-top: 20px;
 }
 
 ul, .datetime {
