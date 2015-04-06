@@ -10134,3 +10134,3151 @@ Processing by StoresController#edit as HTML
   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
 Completed 200 OK in 438ms (Views: 435.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-04-06 11:37:28 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (8.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (11.0ms)
+  [1m[35mUser Load (15.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 3708ms (Views: 3673.2ms | ActiveRecord: 16.1ms)
+
+
+Started GET "/" for ::1 at 2015-04-06 11:37:32 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:37:33 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:37:33 -0400
+
+
+Started GET "/assets/application-c96c498170e1607c6b98d81e9eb0e2e4.css?body=1" for ::1 at 2015-04-06 11:37:33 -0400
+
+
+Started GET "/assets/layout/static-ad486863a58a5baa65fc7048a853a080.css?body=1" for ::1 at 2015-04-06 11:37:33 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:37:33 -0400
+
+
+Started GET "/about" for ::1 at 2015-04-06 11:42:41 -0400
+Processing by StaticController#about as HTML
+  Rendered static/about.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 95ms (Views: 94.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cat-pictures" for ::1 at 2015-04-06 11:42:42 -0400
+Processing by StaticController#cats as HTML
+  Rendered static/cats.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 960ms (Views: 93.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/stores" for ::1 at 2015-04-06 11:42:46 -0400
+Processing by StoresController#index as HTML
+  [1m[35mStore Load (14.0ms)[0m  SELECT "stores".* FROM "stores"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered stores/index.html.erb within layouts/application (46.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 157ms (Views: 139.8ms | ActiveRecord: 14.5ms)
+
+
+Started GET "/" for ::1 at 2015-04-06 11:42:49 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-04-06 11:47:38 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (9.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (1.7ms)
+  [1m[35mUser Load (15.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 3701ms (Views: 3663.2ms | ActiveRecord: 15.7ms)
+
+
+Started GET "/assets/application-53aa031e94541a05ce62edeb974848e1.css?body=1" for ::1 at 2015-04-06 11:47:42 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:47:45 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 87ms (Views: 86.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:47:45 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:47:45 -0400
+
+
+Started GET "/assets/application-53aa031e94541a05ce62edeb974848e1.css?body=1" for ::1 at 2015-04-06 11:47:45 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:47:45 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:47:45 -0400
+
+
+Started GET "/assets/layout/static-ad486863a58a5baa65fc7048a853a080.css?body=1" for ::1 at 2015-04-06 11:47:45 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:47:45 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:47:45 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:47:45 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:47:45 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:47:46 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:47:46 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:49:00 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2214ms (Views: 2213.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/base-06b2f340318612c9209f9686e383a87e.css?body=1" for ::1 at 2015-04-06 11:49:02 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:49:02 -0400
+
+
+Started GET "/assets/application-2d523745a03cc002be211262ab67d6fa.css?body=1" for ::1 at 2015-04-06 11:49:02 -0400
+
+
+Started GET "/assets/layout/static-ad486863a58a5baa65fc7048a853a080.css?body=1" for ::1 at 2015-04-06 11:49:02 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:49:02 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:49:02 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:49:02 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:49:02 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:49:02 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:49:02 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:49:02 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:49:02 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:49:02 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:49:41 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:49:41 -0400
+
+
+Started GET "/assets/layout/static-ad486863a58a5baa65fc7048a853a080.css?body=1" for ::1 at 2015-04-06 11:49:41 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:49:41 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:50:34 -0400
+
+
+Started GET "/assets/layout/static-ad486863a58a5baa65fc7048a853a080.css?body=1" for ::1 at 2015-04-06 11:50:34 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:50:34 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:50:34 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:51:03 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (14.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2887ms (Views: 2871.1ms | ActiveRecord: 14.7ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:51:06 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:51:07 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:51:07 -0400
+
+
+Started GET "/assets/layout/static-ad486863a58a5baa65fc7048a853a080.css?body=1" for ::1 at 2015-04-06 11:51:07 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:51:07 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:51:07 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:51:07 -0400
+
+
+Started GET "/assets/application-53aa031e94541a05ce62edeb974848e1.css?body=1" for ::1 at 2015-04-06 11:51:07 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:51:07 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:51:07 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:51:07 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:51:07 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:51:07 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:52:18 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2233ms (Views: 2232.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:52:20 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:52:20 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:52:20 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:52:20 -0400
+
+
+Started GET "/assets/application-3b06bd616f0873b6790fe77ebedda034.css?body=1" for ::1 at 2015-04-06 11:52:20 -0400
+
+
+Started GET "/assets/layout/static-bc6df6c78a8f88a486494d38cf1968c5.css?body=1" for ::1 at 2015-04-06 11:52:20 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:52:20 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:52:20 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:52:20 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:52:20 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:52:20 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:52:20 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:52:20 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:52:25 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:52:25 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:52:25 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:52:25 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:53:25 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 155ms (Views: 154.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:53:25 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:53:25 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:53:25 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:53:25 -0400
+
+
+Started GET "/assets/application-3b06bd616f0873b6790fe77ebedda034.css?body=1" for ::1 at 2015-04-06 11:53:25 -0400
+
+
+Started GET "/assets/layout/static-bc6df6c78a8f88a486494d38cf1968c5.css?body=1" for ::1 at 2015-04-06 11:53:25 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:53:25 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:53:25 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:53:25 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:53:25 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:53:25 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:53:25 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:53:25 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:53:27 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 84ms (Views: 83.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:53:27 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:53:27 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:53:27 -0400
+
+
+Started GET "/assets/layout/static-bc6df6c78a8f88a486494d38cf1968c5.css?body=1" for ::1 at 2015-04-06 11:53:27 -0400
+
+
+Started GET "/assets/application-3b06bd616f0873b6790fe77ebedda034.css?body=1" for ::1 at 2015-04-06 11:53:27 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:53:27 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:53:27 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:53:27 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:53:27 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:53:27 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:53:27 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:53:27 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:53:27 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:53:57 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (9.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2645ms (Views: 2635.1ms | ActiveRecord: 9.7ms)
+
+
+Started GET "/assets/layout/static-69343d3aabf4b99c1cc692d83ea353e4.css?body=1" for ::1 at 2015-04-06 11:54:00 -0400
+
+
+Started GET "/assets/application-9778e9938120c368140ccc18033307d8.css?body=1" for ::1 at 2015-04-06 11:54:00 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:54:00 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:54:00 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:54:00 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:54:00 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:54:00 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:54:00 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:54:00 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:54:00 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:54:00 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:54:00 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:54:00 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:54:23 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2730ms (Views: 2729.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:54:26 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:54:26 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:54:26 -0400
+
+
+Started GET "/assets/application-31c0186acc774dc348c247312fe7987d.css?body=1" for ::1 at 2015-04-06 11:54:26 -0400
+
+
+Started GET "/assets/layout/static-6b7b4d64ed80ada13027c6b21498d605.css?body=1" for ::1 at 2015-04-06 11:54:26 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:54:26 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:54:26 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:54:26 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:54:26 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:54:26 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:54:26 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:54:26 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:54:26 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:54:34 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:54:34 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:54:34 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:54:34 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:55:26 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (21.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 3558ms (Views: 3535.9ms | ActiveRecord: 21.9ms)
+
+
+Started GET "/assets/layout/static-1c1e28e742f575ad1620325c6ba35c98.css?body=1" for ::1 at 2015-04-06 11:55:30 -0400
+
+
+Started GET "/assets/application-3b3f688bf5793556b24eef437a9e223b.css?body=1" for ::1 at 2015-04-06 11:55:30 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:55:30 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:55:30 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:55:30 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:55:30 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:55:30 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:55:30 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:55:30 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:55:30 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:55:30 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:55:30 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:55:30 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:56:49 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2350ms (Views: 2349.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:56:51 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:56:51 -0400
+
+
+Started GET "/assets/layout/static-68767a77be266f0f87b966a4636ee9bc.css?body=1" for ::1 at 2015-04-06 11:56:51 -0400
+
+
+Started GET "/assets/application-f90f9bf6f65da9838da3090effef7689.css?body=1" for ::1 at 2015-04-06 11:56:51 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:56:51 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:56:51 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:56:51 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:56:51 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:56:51 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:56:51 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:56:51 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:56:51 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:56:51 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:58:09 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (19.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 3736ms (Views: 3716.1ms | ActiveRecord: 19.3ms)
+
+
+Started GET "/assets/layout/static-5d7e6a80a2a5af11d8492afac7998d48.css?body=1" for ::1 at 2015-04-06 11:58:13 -0400
+
+
+Started GET "/assets/application-222e253ef4c31ecea8d3370791b395d9.css?body=1" for ::1 at 2015-04-06 11:58:13 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:58:13 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:58:13 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:58:13 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:58:13 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:58:13 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:58:13 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:58:13 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:58:13 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:58:13 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:58:13 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:58:13 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:58:52 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (16.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 3375ms (Views: 3357.2ms | ActiveRecord: 16.8ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:58:56 -0400
+
+
+Started GET "/assets/layout/static-84057f8f28228aed8f6b2514ad71f54c.css?body=1" for ::1 at 2015-04-06 11:58:56 -0400
+
+
+Started GET "/assets/application-72166fa3a00289e8d866be79743c6ba0.css?body=1" for ::1 at 2015-04-06 11:58:56 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:58:56 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:58:56 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:58:56 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:58:56 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:58:56 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:58:56 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:58:56 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:58:56 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:58:56 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:58:56 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:59:05 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2558ms (Views: 2557.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:59:08 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:59:08 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:59:08 -0400
+
+
+Started GET "/assets/layout/static-69343d3aabf4b99c1cc692d83ea353e4.css?body=1" for ::1 at 2015-04-06 11:59:08 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:59:08 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:59:08 -0400
+
+
+Started GET "/assets/application-9778e9938120c368140ccc18033307d8.css?body=1" for ::1 at 2015-04-06 11:59:08 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:59:08 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:59:08 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:59:08 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:59:08 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:59:08 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:59:08 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 11:59:17 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2343ms (Views: 2342.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 11:59:19 -0400
+
+
+Started GET "/assets/layout/static-84057f8f28228aed8f6b2514ad71f54c.css?body=1" for ::1 at 2015-04-06 11:59:19 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:59:19 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 11:59:19 -0400
+
+
+Started GET "/assets/application-72166fa3a00289e8d866be79743c6ba0.css?body=1" for ::1 at 2015-04-06 11:59:19 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 11:59:19 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 11:59:19 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 11:59:19 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 11:59:19 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:59:19 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:59:19 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 11:59:19 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 11:59:19 -0400
+
+
+Started GET "/assets/layout/static-84057f8f28228aed8f6b2514ad71f54c.css?body=1" for ::1 at 2015-04-06 12:00:35 -0400
+
+
+Started GET "/assets/application-72166fa3a00289e8d866be79743c6ba0.css?body=1" for ::1 at 2015-04-06 12:00:35 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:00:35 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:00:35 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:00:35 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:00:35 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:02:00 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2293ms (Views: 2292.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:02:02 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:02:02 -0400
+
+
+Started GET "/assets/layout/static-bbe795630a445881ab82b1fcd8c86606.css?body=1" for ::1 at 2015-04-06 12:02:02 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:02:02 -0400
+
+
+Started GET "/assets/application-18f0966638acb825130fb86fe5bca123.css?body=1" for ::1 at 2015-04-06 12:02:02 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:02:02 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:02:02 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:02:02 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:02:02 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:02:02 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:02:02 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:02:02 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:02:02 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:02:20 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2264ms (Views: 2263.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:02:23 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:02:23 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:02:23 -0400
+
+
+Started GET "/assets/layout/static-c17417b78b93c0e3d0f96844e7d8ec30.css?body=1" for ::1 at 2015-04-06 12:02:23 -0400
+
+
+Started GET "/assets/application-da615330fd2f4a04940d2add9a2b644c.css?body=1" for ::1 at 2015-04-06 12:02:23 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:02:23 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:02:23 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:02:23 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:02:23 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:02:23 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:02:23 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:02:23 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:02:23 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:02:24 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 95ms (Views: 94.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:02:24 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:02:24 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:02:24 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:02:24 -0400
+
+
+Started GET "/assets/layout/static-c17417b78b93c0e3d0f96844e7d8ec30.css?body=1" for ::1 at 2015-04-06 12:02:24 -0400
+
+
+Started GET "/assets/application-da615330fd2f4a04940d2add9a2b644c.css?body=1" for ::1 at 2015-04-06 12:02:24 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:02:24 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:02:24 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:02:24 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:02:24 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:02:24 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:02:24 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:02:24 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:02:31 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:02:31 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:02:31 -0400
+
+
+Started GET "/assets/application-da615330fd2f4a04940d2add9a2b644c.css?body=1" for ::1 at 2015-04-06 12:02:31 -0400
+
+
+Started GET "/assets/layout/static-c17417b78b93c0e3d0f96844e7d8ec30.css?body=1" for ::1 at 2015-04-06 12:02:31 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:02:31 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:03:04 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (5.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2920ms (Views: 2913.1ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/assets/layout/static-a49a1c9732b4921097ae98b026d45ed2.css?body=1" for ::1 at 2015-04-06 12:03:07 -0400
+
+
+Started GET "/assets/application-2dfff71e052f663514efe76b92070331.css?body=1" for ::1 at 2015-04-06 12:03:07 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:03:07 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:03:07 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:03:07 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:03:07 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:03:07 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:03:07 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:03:07 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:03:07 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:03:07 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:03:07 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:03:07 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:03:33 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2243ms (Views: 2242.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:03:35 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:03:35 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:03:35 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:03:35 -0400
+
+
+Started GET "/assets/layout/static-a593a66f58bb34f4483a225943458e4c.css?body=1" for ::1 at 2015-04-06 12:03:35 -0400
+
+
+Started GET "/assets/application-00bd8f3ff6440e1d2870ba4085a1817f.css?body=1" for ::1 at 2015-04-06 12:03:35 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:03:35 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:03:35 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:03:35 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:03:35 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:03:35 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:03:35 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:03:35 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:03:36 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 87ms (Views: 86.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:03:36 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:03:36 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:03:36 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:03:36 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:03:36 -0400
+
+
+Started GET "/assets/layout/static-a593a66f58bb34f4483a225943458e4c.css?body=1" for ::1 at 2015-04-06 12:03:36 -0400
+
+
+Started GET "/assets/application-00bd8f3ff6440e1d2870ba4085a1817f.css?body=1" for ::1 at 2015-04-06 12:03:36 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:03:36 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:03:36 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:03:36 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:03:36 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:03:36 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:03:36 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:03:45 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (11.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2413ms (Views: 2401.1ms | ActiveRecord: 11.3ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:03:47 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:03:47 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:03:47 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:03:47 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:03:47 -0400
+
+
+Started GET "/assets/layout/static-c17417b78b93c0e3d0f96844e7d8ec30.css?body=1" for ::1 at 2015-04-06 12:03:47 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:03:47 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:03:47 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:03:47 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:03:47 -0400
+
+
+Started GET "/assets/application-da615330fd2f4a04940d2add9a2b644c.css?body=1" for ::1 at 2015-04-06 12:03:47 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:03:47 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:03:47 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:04:33 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:04:33 -0400
+
+
+Started GET "/assets/application-da615330fd2f4a04940d2add9a2b644c.css?body=1" for ::1 at 2015-04-06 12:04:33 -0400
+
+
+Started GET "/assets/layout/static-c17417b78b93c0e3d0f96844e7d8ec30.css?body=1" for ::1 at 2015-04-06 12:04:33 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:04:33 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:04:33 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:05:39 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 98ms (Views: 97.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:05:40 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:05:40 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:05:40 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:05:40 -0400
+
+
+Started GET "/assets/application-da615330fd2f4a04940d2add9a2b644c.css?body=1" for ::1 at 2015-04-06 12:05:40 -0400
+
+
+Started GET "/assets/layout/static-c17417b78b93c0e3d0f96844e7d8ec30.css?body=1" for ::1 at 2015-04-06 12:05:40 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:05:40 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:05:40 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:05:40 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:05:40 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:05:40 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:05:40 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:05:40 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:05:41 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 219ms (Views: 218.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:05:41 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:05:41 -0400
+
+
+Started GET "/assets/application-da615330fd2f4a04940d2add9a2b644c.css?body=1" for ::1 at 2015-04-06 12:05:41 -0400
+
+
+Started GET "/assets/layout/static-c17417b78b93c0e3d0f96844e7d8ec30.css?body=1" for ::1 at 2015-04-06 12:05:41 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:05:41 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:05:41 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:05:41 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:05:41 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:05:41 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:05:41 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:05:41 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:05:41 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:05:41 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:06:23 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (18.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 101ms (Views: 81.8ms | ActiveRecord: 18.9ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:06:23 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:06:23 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:06:23 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:06:23 -0400
+
+
+Started GET "/assets/application-da615330fd2f4a04940d2add9a2b644c.css?body=1" for ::1 at 2015-04-06 12:06:23 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:06:23 -0400
+
+
+Started GET "/assets/layout/static-c17417b78b93c0e3d0f96844e7d8ec30.css?body=1" for ::1 at 2015-04-06 12:06:23 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:06:23 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:06:23 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:06:23 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:06:23 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:06:23 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:06:23 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:07:14 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2485ms (Views: 2484.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:07:16 -0400
+
+
+Started GET "/assets/application-20b84cb69ff8865b98d39f87ffd27512.css?body=1" for ::1 at 2015-04-06 12:07:16 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:07:16 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:07:16 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:07:16 -0400
+
+
+Started GET "/assets/layout/static-ad0567a285812423ac662c5bdb498b09.css?body=1" for ::1 at 2015-04-06 12:07:16 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:07:16 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:07:16 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:07:16 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:07:16 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:07:16 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:07:16 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:07:16 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:07:39 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2179ms (Views: 2178.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:07:41 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:07:41 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:07:41 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:07:41 -0400
+
+
+Started GET "/assets/layout/static-0898a56055916ce9f62f3f88f49deaeb.css?body=1" for ::1 at 2015-04-06 12:07:41 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:07:41 -0400
+
+
+Started GET "/assets/application-8993cba9dc81c4947bd01d372c6bcfac.css?body=1" for ::1 at 2015-04-06 12:07:41 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:07:41 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:07:41 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:07:41 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:07:41 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:07:41 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:07:41 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:07:43 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 157ms (Views: 156.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:07:43 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:07:43 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:07:43 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:07:43 -0400
+
+
+Started GET "/assets/layout/static-0898a56055916ce9f62f3f88f49deaeb.css?body=1" for ::1 at 2015-04-06 12:07:43 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:07:43 -0400
+
+
+Started GET "/assets/application-8993cba9dc81c4947bd01d372c6bcfac.css?body=1" for ::1 at 2015-04-06 12:07:43 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:07:43 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:07:43 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:07:43 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:07:43 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:07:43 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:07:43 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:07:47 -0400
+
+
+Started GET "/assets/application-8993cba9dc81c4947bd01d372c6bcfac.css?body=1" for ::1 at 2015-04-06 12:07:47 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:07:47 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:07:47 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:07:47 -0400
+
+
+Started GET "/assets/layout/static-0898a56055916ce9f62f3f88f49deaeb.css?body=1" for ::1 at 2015-04-06 12:07:47 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:09:48 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (10.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2926ms (Views: 2914.7ms | ActiveRecord: 10.3ms)
+
+
+Started GET "/assets/layout/static-31f87037065dc70cec04ecf285330e5e.css?body=1" for ::1 at 2015-04-06 12:09:51 -0400
+
+
+Started GET "/assets/application-f00e5acb34417113e7aba872e4d8e02b.css?body=1" for ::1 at 2015-04-06 12:09:51 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:09:51 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:09:51 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:09:51 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:09:51 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:09:51 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:09:51 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:09:51 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:09:51 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:09:51 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:09:51 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:09:51 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:10:13 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2420ms (Views: 2418.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:10:16 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:10:16 -0400
+
+
+Started GET "/assets/application-25ceb78c16b62ca6602a06f28fdf6e3d.css?body=1" for ::1 at 2015-04-06 12:10:16 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:10:16 -0400
+
+
+Started GET "/assets/layout/static-fddb558b1c49f418654ce522fb0046cc.css?body=1" for ::1 at 2015-04-06 12:10:16 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:10:16 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:10:16 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:10:16 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:10:16 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:10:16 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:10:16 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:10:16 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:10:16 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:10:29 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2506ms (Views: 2504.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:10:31 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:10:31 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:10:31 -0400
+
+
+Started GET "/assets/layout/static-27c98df579b8eedee44ea7a5ef3f0056.css?body=1" for ::1 at 2015-04-06 12:10:31 -0400
+
+
+Started GET "/assets/application-6b3f0af340deedf9558f09accca226d8.css?body=1" for ::1 at 2015-04-06 12:10:31 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:10:31 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:10:31 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:10:31 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:10:31 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:10:31 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:10:31 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:10:31 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:10:31 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:10:40 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2268ms (Views: 2267.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:10:42 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:10:42 -0400
+
+
+Started GET "/assets/application-25ceb78c16b62ca6602a06f28fdf6e3d.css?body=1" for ::1 at 2015-04-06 12:10:42 -0400
+
+
+Started GET "/assets/layout/static-fddb558b1c49f418654ce522fb0046cc.css?body=1" for ::1 at 2015-04-06 12:10:42 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:10:42 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:10:42 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:10:42 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:10:42 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:10:42 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:10:42 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:10:42 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:10:42 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:10:42 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:11:11 -0400
+
+
+Started GET "/assets/layout/static-fddb558b1c49f418654ce522fb0046cc.css?body=1" for ::1 at 2015-04-06 12:11:11 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:11:11 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:11:11 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:11:11 -0400
+
+
+Started GET "/assets/application-25ceb78c16b62ca6602a06f28fdf6e3d.css?body=1" for ::1 at 2015-04-06 12:11:11 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:11:32 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (17.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2243ms (Views: 2224.2ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:11:34 -0400
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:11:34 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:11:34 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:11:34 -0400
+
+
+Started GET "/assets/layout/static-58102af9112db67055cb7d04859eaa1f.css?body=1" for ::1 at 2015-04-06 12:11:34 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:11:35 -0400
+
+
+Started GET "/assets/application-d9374a8c31ae5ab511e477d7bddf4d53.css?body=1" for ::1 at 2015-04-06 12:11:35 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:11:35 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:11:35 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:11:35 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:11:35 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:11:35 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:11:35 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:11:58 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2359ms (Views: 2358.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:12:00 -0400
+
+
+Started GET "/assets/application-48b20fb6d8370ccd841c91b0e5485885.css?body=1" for ::1 at 2015-04-06 12:12:00 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:12:00 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:12:00 -0400
+
+
+Started GET "/assets/layout/static-45f415ba27f4b5ca1ede93e2b299d325.css?body=1" for ::1 at 2015-04-06 12:12:00 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:12:00 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:12:00 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:12:00 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:12:00 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:12:00 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:12:00 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:12:00 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:12:00 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:12:09 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2349ms (Views: 2347.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/base-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:12:11 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:12:11 -0400
+
+
+Started GET "/assets/layout/static-fddb558b1c49f418654ce522fb0046cc.css?body=1" for ::1 at 2015-04-06 12:12:11 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:12:11 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:12:11 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:12:11 -0400
+
+
+Started GET "/assets/application-25ceb78c16b62ca6602a06f28fdf6e3d.css?body=1" for ::1 at 2015-04-06 12:12:11 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:12:11 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:12:11 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:12:11 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:12:11 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:12:11 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:12:11 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:13:47 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2267ms (Views: 2266.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:13:50 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:13:50 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:13:50 -0400
+
+
+Started GET "/assets/application-b4b615c4eb70d21705a8c9b14093f2a1.css?body=1" for ::1 at 2015-04-06 12:13:50 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:13:50 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:13:50 -0400
+
+
+Started GET "/assets/layout/static-3884c4dfb6a1d887d44d453999a97015.css?body=1" for ::1 at 2015-04-06 12:13:50 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:13:50 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:13:50 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:13:50 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:13:50 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:13:50 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:14:01 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2147ms (Views: 2145.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:14:03 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:14:03 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:14:03 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:14:03 -0400
+
+
+Started GET "/assets/layout/static-4a29c73c8596720d147f25f415f64bd1.css?body=1" for ::1 at 2015-04-06 12:14:03 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:14:03 -0400
+
+
+Started GET "/assets/application-25c088436dcc396b22358140f3a9f4c5.css?body=1" for ::1 at 2015-04-06 12:14:03 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:14:03 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:14:03 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:14:03 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:14:03 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:14:03 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:14:07 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 79ms (Views: 78.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:14:07 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:14:07 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:14:07 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:14:07 -0400
+
+
+Started GET "/assets/layout/static-4a29c73c8596720d147f25f415f64bd1.css?body=1" for ::1 at 2015-04-06 12:14:07 -0400
+
+
+Started GET "/assets/application-25c088436dcc396b22358140f3a9f4c5.css?body=1" for ::1 at 2015-04-06 12:14:07 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:14:07 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:14:07 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:14:07 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:14:07 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:14:07 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:14:07 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:14:45 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2321ms (Views: 2320.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:14:47 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:14:47 -0400
+
+
+Started GET "/assets/layout/static-557ecd1bfb91b78754785bdbab141b59.css?body=1" for ::1 at 2015-04-06 12:14:47 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:14:47 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:14:47 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:14:47 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:14:47 -0400
+
+
+Started GET "/assets/application-a91e769b676b2b4a46136d619b47df9c.css?body=1" for ::1 at 2015-04-06 12:14:47 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:14:47 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:14:47 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:14:47 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:14:47 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:16:18 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2175ms (Views: 2174.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:16:20 -0400
+
+
+Started GET "/assets/layout/static-96ca18dc3e7924a7ec7813e3da2bbdbf.css?body=1" for ::1 at 2015-04-06 12:16:20 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:16:20 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:16:20 -0400
+
+
+Started GET "/assets/application-ed8b074cdd85a486de2c29ccf84481ef.css?body=1" for ::1 at 2015-04-06 12:16:20 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:16:20 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:16:20 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:16:20 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:16:20 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:16:20 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:16:20 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:16:20 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:16:46 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:16:46 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:16:46 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:17:02 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:17:02 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:17:02 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:17:53 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2195ms (Views: 2194.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:17:55 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:17:55 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:17:55 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:17:55 -0400
+
+
+Started GET "/assets/application-f31b2c87f310bf551091e0fb10835239.css?body=1" for ::1 at 2015-04-06 12:17:55 -0400
+
+
+Started GET "/assets/layout/static-56d7925c75e0f7ab3c86c5dd8654284e.css?body=1" for ::1 at 2015-04-06 12:17:55 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:17:55 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:17:55 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:17:55 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:17:55 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:17:55 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:17:55 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:26:47 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:26:47 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:26:47 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:28:52 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (16.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6870ms (Views: 6852.5ms | ActiveRecord: 16.7ms)
+
+
+Started GET "/" for ::1 at 2015-04-06 12:28:59 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 90ms (Views: 89.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2015-04-06 12:28:59 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 85ms (Views: 83.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/layout/static-da195c34717d9b776c7fddb7faa3eec7.css?body=1" for ::1 at 2015-04-06 12:29:00 -0400
+
+
+Started GET "/assets/application-236bf0f9b681e88882d37bc553dd4de8.css?body=1" for ::1 at 2015-04-06 12:29:00 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:29:00 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:29:00 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:29:00 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:29:00 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:29:00 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:29:00 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:29:00 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:29:00 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:29:00 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:29:00 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:29:08 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:29:08 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:29:08 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:30:55 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (2.7ms)
+  [1m[35mUser Load (14.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 942ms (Views: 905.8ms | ActiveRecord: 15.4ms)
+
+
+Started GET "/" for ::1 at 2015-04-06 12:30:58 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 127ms (Views: 126.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:30:58 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:30:58 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:30:58 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:30:58 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:30:58 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:30:58 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:30:58 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:30:58 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:30:58 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:30:58 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:33:11 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (19.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (9.6ms)
+  [1m[35mUser Load (37.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 4288ms (Views: 4218.9ms | ActiveRecord: 37.9ms)
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:33:16 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:33:16 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:33:16 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:33:16 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:33:16 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:33:16 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:33:16 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:33:16 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:33:16 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:33:16 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:47:44 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (16.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 3618ms (Views: 3601.4ms | ActiveRecord: 16.1ms)
+
+
+Started GET "/assets/base/base-905041a9303fa4ed26935115c3077235.css?body=1" for ::1 at 2015-04-06 12:47:47 -0400
+
+
+Started GET "/assets/bootstrap/variables-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:47:47 -0400
+
+
+Started GET "/assets/application-83c0932bce408100a43f622f20c70883.css?body=1" for ::1 at 2015-04-06 12:47:47 -0400
+
+
+Started GET "/assets/controls/inventory-1501772f2b3f7940cdbdef1314d576da.css?body=1" for ::1 at 2015-04-06 12:47:48 -0400
+
+
+Started GET "/assets/controls/ordered-99401594583c88f96102a3a30adb3b46.css?body=1" for ::1 at 2015-04-06 12:47:48 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:47:48 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:47:48 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:47:48 -0400
+
+
+Started GET "/assets/layout/static-56d7925c75e0f7ab3c86c5dd8654284e.css?body=1" for ::1 at 2015-04-06 12:47:48 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:47:48 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:47:48 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:47:48 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:47:48 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:47:48 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:47:48 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:47:48 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:47:49 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 94ms (Views: 93.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/controls/ordered-99401594583c88f96102a3a30adb3b46.css?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/base/base-905041a9303fa4ed26935115c3077235.css?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/bootstrap/variables-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/layout/static-56d7925c75e0f7ab3c86c5dd8654284e.css?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/controls/inventory-1501772f2b3f7940cdbdef1314d576da.css?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/application-83c0932bce408100a43f622f20c70883.css?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:47:50 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:48:35 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2278ms (Views: 2277.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:48:37 -0400
+
+
+Started GET "/assets/base/base-905041a9303fa4ed26935115c3077235.css?body=1" for ::1 at 2015-04-06 12:48:37 -0400
+
+
+Started GET "/assets/layout/static-56d7925c75e0f7ab3c86c5dd8654284e.css?body=1" for ::1 at 2015-04-06 12:48:37 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:48:37 -0400
+
+
+Started GET "/assets/controls/ordered-99401594583c88f96102a3a30adb3b46.css?body=1" for ::1 at 2015-04-06 12:48:37 -0400
+
+
+Started GET "/assets/bootstrap/variables-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:48:38 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:48:38 -0400
+
+
+Started GET "/assets/controls/inventory-1501772f2b3f7940cdbdef1314d576da.css?body=1" for ::1 at 2015-04-06 12:48:38 -0400
+
+
+Started GET "/assets/application-83c0932bce408100a43f622f20c70883.css?body=1" for ::1 at 2015-04-06 12:48:38 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:48:38 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:48:38 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:48:38 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:48:38 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:48:38 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:48:38 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:48:38 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:49:52 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2196ms (Views: 2194.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/base-905041a9303fa4ed26935115c3077235.css?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/layout/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/controls/inventory-1501772f2b3f7940cdbdef1314d576da.css?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/bootstrap/variables-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/controls/ordered-99401594583c88f96102a3a30adb3b46.css?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/layout/static-56d7925c75e0f7ab3c86c5dd8654284e.css?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/layout/stores-b979c5adf2e94ddb555210f8922cf9fc.css?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/application-83c0932bce408100a43f622f20c70883.css?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:49:54 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:50:11 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1972ms (Views: 1971.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/base-905041a9303fa4ed26935115c3077235.css?body=1" for ::1 at 2015-04-06 12:50:13 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:50:13 -0400
+
+
+Started GET "/assets/bootstrap/variables-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:50:13 -0400
+
+
+Started GET "/assets/controls/inventory-1501772f2b3f7940cdbdef1314d576da.css?body=1" for ::1 at 2015-04-06 12:50:13 -0400
+
+
+Started GET "/assets/application-ce061fc2501ea18bc762bcfa5fb4231b.css?body=1" for ::1 at 2015-04-06 12:50:13 -0400
+
+
+Started GET "/assets/controls/ordered-99401594583c88f96102a3a30adb3b46.css?body=1" for ::1 at 2015-04-06 12:50:13 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:50:13 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:50:13 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:50:13 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:50:13 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:50:13 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:50:13 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:50:13 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:50:15 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 151ms (Views: 150.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/base-905041a9303fa4ed26935115c3077235.css?body=1" for ::1 at 2015-04-06 12:50:15 -0400
+
+
+Started GET "/assets/controls/ordered-99401594583c88f96102a3a30adb3b46.css?body=1" for ::1 at 2015-04-06 12:50:15 -0400
+
+
+Started GET "/assets/bootstrap/variables-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:50:15 -0400
+
+
+Started GET "/assets/controls/inventory-1501772f2b3f7940cdbdef1314d576da.css?body=1" for ::1 at 2015-04-06 12:50:15 -0400
+
+
+Started GET "/assets/application-ce061fc2501ea18bc762bcfa5fb4231b.css?body=1" for ::1 at 2015-04-06 12:50:15 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:50:15 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:50:15 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:50:15 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:50:15 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:50:15 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:50:15 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:50:15 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:50:15 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:51:57 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2296ms (Views: 2295.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:52:00 -0400
+
+
+Started GET "/assets/base/base-905041a9303fa4ed26935115c3077235.css?body=1" for ::1 at 2015-04-06 12:52:00 -0400
+
+
+Started GET "/assets/bootstrap/variables-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:52:00 -0400
+
+
+Started GET "/assets/controls/inventory-1501772f2b3f7940cdbdef1314d576da.css?body=1" for ::1 at 2015-04-06 12:52:00 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:52:00 -0400
+
+
+Started GET "/assets/application-ce061fc2501ea18bc762bcfa5fb4231b.css?body=1" for ::1 at 2015-04-06 12:52:00 -0400
+
+
+Started GET "/assets/controls/ordered-99401594583c88f96102a3a30adb3b46.css?body=1" for ::1 at 2015-04-06 12:52:00 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:52:00 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:52:00 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:52:00 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:52:00 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:52:00 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:52:00 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:54:21 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1929ms (Views: 1928.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/base-905041a9303fa4ed26935115c3077235.css?body=1" for ::1 at 2015-04-06 12:54:23 -0400
+
+
+Started GET "/assets/base/scaffolds-78c09cda5bafea4125ff8c0d8c65c241.css?body=1" for ::1 at 2015-04-06 12:54:23 -0400
+
+
+Started GET "/assets/controls/ordered-99401594583c88f96102a3a30adb3b46.css?body=1" for ::1 at 2015-04-06 12:54:23 -0400
+
+
+Started GET "/assets/application-643047af238c5be1a15192c8d157cc8f.css?body=1" for ::1 at 2015-04-06 12:54:23 -0400
+
+
+Started GET "/assets/bootstrap/variables-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 12:54:23 -0400
+
+
+Started GET "/assets/controls/inventory-1501772f2b3f7940cdbdef1314d576da.css?body=1" for ::1 at 2015-04-06 12:54:23 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:54:23 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:54:23 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:54:23 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:54:23 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:54:23 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:54:23 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:54:23 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 12:56:51 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1789ms (Views: 1788.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 12:56:52 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 12:56:52 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:56:52 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:56:52 -0400
+
+
+Started GET "/assets/application-d768f456f5f751f6af5a91a766feeb0d.css?body=1" for ::1 at 2015-04-06 12:56:52 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 12:56:52 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 12:56:52 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 12:56:52 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 13:06:29 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (19.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 607ms (Views: 587.0ms | ActiveRecord: 19.6ms)
+
+
+Started GET "/assets/application-89f476a9c94aa3ed47979fef0ef6cc9a.css?body=1" for ::1 at 2015-04-06 13:06:29 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 13:06:30 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 13:06:30 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:06:30 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:06:30 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 13:06:30 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:06:30 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 13:06:30 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 13:07:00 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1933ms (Views: 1932.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application-c413bf224d33c42ed965276bc00ddae6.css?body=1" for ::1 at 2015-04-06 13:07:02 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 13:07:02 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 13:07:02 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 13:07:02 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:07:02 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:07:02 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:07:02 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 13:07:02 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 13:07:50 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 1011ms
+
+Sass::SyntaxError - File to import not found or unreadable: base/scaffolds.scss.
+Load paths:
+  /Users/kieraginger/Documents/Git/TC359/tc359_rails_final/app/assets/images
+  /Users/kieraginger/Documents/Git/TC359/tc359_rails_final/app/assets/javascripts
+  /Users/kieraginger/Documents/Git/TC359/tc359_rails_final/app/assets/stylesheets
+  /Users/kieraginger/Documents/Git/TC359/tc359_rails_final/vendor/assets/javascripts
+  /Users/kieraginger/Documents/Git/TC359/tc359_rails_final/vendor/assets/stylesheets
+  /Users/kieraginger/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kieraginger/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/kieraginger/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Users/kieraginger/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets
+  /Users/kieraginger/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.4.1/assets/javascripts
+  /Users/kieraginger/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.4.1/assets/fonts
+  /Users/kieraginger/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.4.1/assets/images
+  /Users/kieraginger/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets
+  (in /Users/kieraginger/Documents/Git/TC359/tc359_rails_final/app/assets/stylesheets/application.css.scss:22):
+  sass (3.4.13) lib/sass/tree/import_node.rb:66:in `rescue in import'
+  sass (3.4.13) lib/sass/tree/import_node.rb:45:in `import'
+  sass (3.4.13) lib/sass/tree/import_node.rb:28:in `imported_file'
+  sass (3.4.13) lib/sass/tree/import_node.rb:37:in `css_import?'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.13) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.13) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.13) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.13) lib/sass/engine.rb:268:in `render'
+  sass-rails (5.0.1) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (2.12.3) lib/sprockets/context.rb:197:in `block in evaluate'
+  sprockets (2.12.3) lib/sprockets/context.rb:194:in `evaluate'
+  sprockets (2.12.3) lib/sprockets/processed_asset.rb:12:in `initialize'
+  sprockets (2.12.3) lib/sprockets/base.rb:374:in `block in build_asset'
+  sprockets (2.12.3) lib/sprockets/base.rb:395:in `circular_call_protection'
+  sprockets (2.12.3) lib/sprockets/base.rb:373:in `build_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:94:in `block in build_asset'
+  sprockets (2.12.3) lib/sprockets/caching.rb:58:in `cache_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.12.3) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.12.3) lib/sprockets/bundled_asset.rb:37:in `init_with'
+  sprockets (2.12.3) lib/sprockets/asset.rb:24:in `from_hash'
+  sprockets (2.12.3) lib/sprockets/caching.rb:54:in `cache_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.12.3) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.12.3) lib/sprockets/environment.rb:75:in `find_asset'
+  sprockets (2.12.3) lib/sprockets/base.rb:295:in `[]'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___400709544559961646_70105801425640'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/kieraginger/.rbenv/versions/2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/kieraginger/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/kieraginger/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/kieraginger/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/9dd41d7b563cfe0c/variables" for ::1 at 2015-04-06 13:07:51 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 13:08:00 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (19.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2185ms (Views: 2165.8ms | ActiveRecord: 19.1ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 13:08:02 -0400
+
+
+Started GET "/assets/application-67a01aff01aa0cda6cd5b230dc783b8d.css?body=1" for ::1 at 2015-04-06 13:08:02 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 13:08:02 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:08:02 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:08:02 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:08:02 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 13:08:02 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 13:08:02 -0400
+
+
+Started GET "/stores" for ::1 at 2015-04-06 13:08:25 -0400
+Processing by StoresController#index as HTML
+  [1m[35mStore Load (2.8ms)[0m  SELECT "stores".* FROM "stores"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered stores/index.html.erb within layouts/application (12.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 93ms (Views: 86.6ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/stores" for ::1 at 2015-04-06 13:10:05 -0400
+Processing by StoresController#index as HTML
+  [1m[36mStore Load (0.2ms)[0m  [1mSELECT "stores".* FROM "stores"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered stores/index.html.erb within layouts/application (4.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2055ms (Views: 2053.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-26242614c2ce95852a44058398947abb.css?body=1" for ::1 at 2015-04-06 13:10:07 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 13:10:07 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 13:10:07 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:10:07 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 13:10:07 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:10:07 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:10:07 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 13:10:07 -0400
+
+
+Started GET "/stores" for ::1 at 2015-04-06 13:11:49 -0400
+Processing by StoresController#index as HTML
+  [1m[35mStore Load (39.1ms)[0m  SELECT "stores".* FROM "stores"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered stores/index.html.erb within layouts/application (43.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 2030ms (Views: 1990.2ms | ActiveRecord: 39.4ms)
+
+
+Started GET "/assets/application-cf529fa27fea3128466c7c621de05826.css?body=1" for ::1 at 2015-04-06 13:11:51 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 13:11:51 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 13:11:51 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:11:51 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:11:51 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 13:11:51 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 13:11:51 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:11:51 -0400
+
+
+Started GET "/stores" for ::1 at 2015-04-06 13:12:22 -0400
+Processing by StoresController#index as HTML
+  [1m[36mStore Load (0.2ms)[0m  [1mSELECT "stores".* FROM "stores"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered stores/index.html.erb within layouts/application (4.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2031ms (Views: 2029.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-9979ccb3646591e632ea79501938167b.css?body=1" for ::1 at 2015-04-06 13:12:24 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:12:24 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 13:12:24 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 13:12:24 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 13:12:24 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:12:24 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 13:12:24 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:12:24 -0400
+
+
+Started GET "/stores" for ::1 at 2015-04-06 13:12:39 -0400
+Processing by StoresController#index as HTML
+  [1m[35mStore Load (0.2ms)[0m  SELECT "stores".* FROM "stores"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered stores/index.html.erb within layouts/application (4.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1993ms (Views: 1992.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 13:12:41 -0400
+
+
+Started GET "/assets/application-d14aeea44afbcba2bdd7e4bc6d6742ce.css?body=1" for ::1 at 2015-04-06 13:12:41 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:12:41 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 13:12:41 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 13:12:41 -0400
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:12:41 -0400
+
+
+Started GET "/assets/stores-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 13:12:41 -0400
+
+
+Started GET "/assets/application-8ce5067598cd03bc722b97db5dd776ec.js?body=1" for ::1 at 2015-04-06 13:12:41 -0400
+
+
+Started GET "/" for ::1 at 2015-04-06 13:13:22 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.1ms)
